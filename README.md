@@ -18,7 +18,7 @@ To use this application:
 
 Clone the repository to your local machine.
 bash
-git clone https://github.com/yourusername/todo-list.git  
+git clone https://github.com/SaberRamim/todo-list.git  
 Open the index.html file in your web browser.
 Usage
 Enter a task in the input field.
@@ -52,7 +52,7 @@ JavaScript
 
 مخزن را بر روی ماشین محلی خود کپی کنید.
 bash
-git clone https://github.com/yourusername/todo-list.git  
+git clone https://github.com/SaberRamim/todo-list.git  
 فایل index.html را در مرورگر وب خود باز کنید.
 استفاده
 یک وظیفه را در فیلد ورودی وارد کنید.
