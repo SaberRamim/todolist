@@ -1,3 +1,4 @@
+/* Define custom color variables for consistent theming */
 :root {
   --color-primary: #f9d72f;
   --color-background: #e6e6e6;
@@ -6,16 +7,22 @@
   --color-warning: #fbbe23;
   --color-error: #f87171;
 }
+
+/* Universal reset for padding and margins */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: vazirmatn, Arial, Helvetica, sans-serif;
 }
+
+/* Body styling */
 body {
   max-width: 1000px;
   margin: auto;
 }
+
+/* Main container styling */
 .container {
   width: 100%;
   margin: 40px auto 10px;
@@ -28,16 +35,22 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* Heading styling */
 h2 {
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
+
+/* Input section styling */
 .input-section {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
+
+/* Input field styling */
 .input-section input {
   margin-left: 10px;
   width: 100%;
@@ -46,10 +59,14 @@ h2 {
   padding: 10px;
   color: gray;
 }
+
+/* Input field focus state */
 .input-section input:focus {
   outline: none;
   border-width: 2px;
 }
+
+/* Button styling */
 button {
   background-color: var(--color-primary);
   border: none;
@@ -58,44 +75,61 @@ button {
   border-radius: 5px;
   font-size: 0.9rem;
 }
+
+/* Button hover state */
 button:hover {
   opacity: 0.8;
 }
 
+/* Todos operator styling */
 .todos-operator {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+/* Delete button styling */
 #delete-all-button {
   background-color: var(--color-error);
 }
+
+/* Table styling */
 table {
   width: 100%;
 }
+
+/* Table header styling */
 thead {
   background-color: var(--color-background);
 }
+
 thead th {
   padding: 10px;
 }
+
 thead th:first-child {
   border-top-right-radius: 10px;
 }
+
 thead th:last-child {
   border-top-left-radius: 10px;
 }
 
+/* Table body styling */
 tbody td {
   background-color: var(--color-task);
   padding: 5px 10px;
   text-align: center;
   width: 25%;
 }
+
+/* Button styling within table cells */
 tbody td button {
   padding: 4px 8px;
   margin: 2px 5px;
 }
+
+/* Button color variations in the table */
 tbody td button:nth-child(1) {
   background-color: var(--color-warning);
 }
@@ -107,6 +141,7 @@ tbody td button:nth-child(3) {
   background-color: var(--color-error);
 }
 
+/* Alert message styling */
 #alert-message {
   width: 100%;
   height: 40px;
@@ -114,18 +149,25 @@ tbody td button:nth-child(3) {
   align-items: center;
 }
 
+/* Alert styling */
 .alert {
   width: 100%;
   text-align: center;
   border-radius: 4px;
   padding: 5px;
 }
+
+/* Success alert styling */
 .alert-success {
   background-color: var(--color-success);
 }
+
+/* Error alert styling */
 .alert-error {
   background-color: var(--color-error);
 }
+
+/* Edit button hidden by default */
 #edit-button {
   display: none;
 }
