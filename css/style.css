@@ -1,11 +1,11 @@
 /* Define custom color variables for consistent theming */
 :root {
-  --color-primary: #f9d72f;
-  --color-background: #e6e6e6;
-  --color-task: #f7f7f7;
-  --color-success: #36d39a;
-  --color-warning: #fbbe23;
-  --color-error: #f87171;
+  --color-primary: #f9d72f; /* Primary color used for buttons and highlights */
+  --color-background: #e6e6e6; /* Background color for header elements */
+  --color-task: #f7f7f7; /* Background color for task items */
+  --color-success: #36d39a; /* Color indicating successful actions */
+  --color-warning: #fbbe23; /* Color indicating warnings or important notes */
+  --color-error: #f87171; /* Color indicating errors or alerts */
 }
 
 /* Universal reset for padding and margins */
