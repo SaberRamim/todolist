@@ -1,52 +1,60 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>تودو لیست</title>
-    <link
-      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h2>برنامه تودو لیست | Todo List App</h2>
-      <div class="input-section">
-        <input type="text" placeholder="متن تودو را بنویسید" id="task-input" />
-        <input type="date" id="date-input" />
-        <button id="add-button">افزودن</button>
-        <button id="edit-button">ویرایش</button>
-      </div>
-      <div class="todos-operator">
-        <div>
-          <button class="filter-todos" data-filter="all">همه</button>
-          <button class="filter-todos" data-filter="pending">
-            درحال انجام
-          </button>
-          <button class="filter-todos" data-filter="completed">
-            تکمیل شده
-          </button>
-        </div>
-        <button id="delete-all-button">حذف همه</button>
-      </div>
-    </div>
-    <div id="alert-message"></div>
-    <div class="table">
-      <table>
-        <thead>
-          <tr>
-            <th>عنوان</th>
-            <th>تاریخ</th>
-            <th>وضعیت</th>
-            <th>عملیات</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <script src="./js/app.js"></script>
-  </body>
+<!DOCTYPE html>  
+<html lang="fa" dir="rtl">  
+<head>  
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>Todo List</title>  
+    <!-- Link to the Vazir font -->  
+    <link  
+        href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"  
+        rel="stylesheet"  
+        type="text/css"  
+    />  
+    <!-- Link to personal CSS file -->  
+    <link rel="stylesheet" href="./css/style.css" />  
+</head>  
+<body>  
+    <div class="container">  
+        <h2>Todo List App | برنامه تودو لیست</h2>  
+        <div class="input-section">  
+            <!-- Input for entering a task -->  
+            <input type="text" placeholder="Write your todo text" id="task-input" />  
+            <!-- Input for selecting a date -->  
+            <input type="date" id="date-input" />  
+            <!-- Button to add a task -->  
+            <button id="add-button">Add</button>  
+            <!-- Button to edit a task -->  
+            <button id="edit-button">Edit</button>  
+        </div>  
+        <div class="todos-operator">  
+            <div>  
+                <!-- Filter buttons to show tasks based on their status -->  
+                <button class="filter-todos" data-filter="all">All</button>  
+                <button class="filter-todos" data-filter="pending">Pending</button>  
+                <button class="filter-todos" data-filter="completed">Completed</button>  
+            </div>  
+            <!-- Button to delete all tasks -->  
+            <button id="delete-all-button">Delete All</button>  
+        </div>  
+    </div>  
+    <!-- Alert message box for errors or warnings -->  
+    <div id="alert-message"></div>  
+    <div class="table">  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>Title</th>  
+                    <th>Date</th>  
+                    <th>Status</th>  
+                    <th>Actions</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <!-- Tasks will be dynamically added here -->  
+            </tbody>  
+        </table>  
+    </div>  
+    <!-- Link to personal JavaScript file -->  
+    <script src="./js/app.js"></script>  
+</body>  
 </html>
