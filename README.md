@@ -29,8 +29,7 @@ Use the filter buttons to view all tasks, only completed tasks, or only pending 
 Contributing
 Contributions are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+
 
 اپلیکیشن لیست کارها (To-Do List)
 مرور کلی
@@ -63,5 +62,4 @@ git clone https://github.com/SaberRamim/todolist.git
 همکاری
 همکاری‌ها خوش‌آمد است! اگر پیشنهاداتی برای بهبود یا ویژگی‌ها دارید، خوشحال می‌شویم که یک issue باز کنید یا یک pull request ارسال کنید.
 
-مجوز
-این پروژه تحت مجوز MIT منتشر شده است.
+
