@@ -10,9 +10,12 @@ Delete individual tasks or all tasks at once.
 Filter tasks by completion status (all, completed, and pending).
 Display alerts for user feedback.
 Technologies Used
-HTML
-CSS
-JavaScript
+
+.HTML
+.CSS
+.JavaScript
+
+
 Getting Started
 To use this application:
 
