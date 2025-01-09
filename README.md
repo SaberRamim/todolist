@@ -14,7 +14,7 @@ Technologies Used
 .HTML
 .CSS
 .JavaScript
-
+----------------------------------------------------------------------
 
 Getting Started
 To use this application:
